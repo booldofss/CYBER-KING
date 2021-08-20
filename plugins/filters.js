@@ -155,7 +155,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
     if (!!message.mention && message.mention[0] == '917356378949@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./sticker/song.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['Pikachu','Msd','Vijay','Rashmika','song','Sry','Da','Line','Aa','Aysheri','Daa','Foodkazhicho','Hi','Hlo','Lisa','Noob','Poda']
+const array = ['Pikachu','SACHUSAMU','Msd','Vijay','Rashmika','song','Sry','Da','Line','Aa','Aysheri','Daa','Foodkazhicho','Hi','Hlo','Lisa','Noob','Poda']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
